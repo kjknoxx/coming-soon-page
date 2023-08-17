@@ -1,1 +1,20 @@
 @import "reset.css";
+:root {
+    --clr-primary-gradient: 135deg, #F8BFBF 0%, #EE8B8B 100%;
+    --clr-dark-color: #423A3A;
+    --clr-beige-color: #CE9898;
+    --clr-coral-color: #EE8B8B;
+    --clr-white: #FFF;
+}
+.page-wrapper {
+    /*will cover the whole page and takes up the space of the webpage.*/
+    display: flex;
+    min-height: 100vh;
+}
+.left-side {
+    flex: 2 0 0;
+    background: var(--clr-primary-gradient);
+}
+.right-side {
+
+}
